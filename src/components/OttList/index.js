@@ -9,7 +9,12 @@ export default class OTTList extends Component {
   };
 
   removeOtt = (id) => {
-    console.log(id);
+    const { ott } = this.state;
+    const sortedOtt = ott.filter((ott) => ott.id !== id);
+    this.setState({
+      ott: sortedOtt,
+    });
+    // console.log(id);
   };
   render() {
     // console.log(this.state.ott);
