@@ -12,7 +12,7 @@ export default class OTTList extends Component {
     console.log(id);
   };
   render() {
-    console.log(this.state.ott);
+    // console.log(this.state.ott);
     const { ott } = this.state;
     return (
       <section className="ottlist">
