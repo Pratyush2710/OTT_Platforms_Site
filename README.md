@@ -5,7 +5,7 @@ This project was created for fun learning using React and Sass.
 ## Overview
 
 OTT Platform lists some common OTT platforms in India, and their info being controlled by the Info button along with the functionality to remove the OTT you would't want by hovering over the image.
-
+## Check out : https://react-ott-platform.netlify.app/
 ![OTT Overview](/public/Ott.png)
 
 ## To run
