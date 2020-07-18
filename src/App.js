@@ -1,10 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.scss";
-
-function App() {
-  return <h1>This is our application</h1>;
+import Navbar from "./components/Navbar/Navbar";
+export default class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Navbar />
+      </React.Fragment>
+    );
+  }
 }
-
-export default App;
