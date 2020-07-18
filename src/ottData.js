@@ -1,4 +1,4 @@
-export const tourData = [
+export const ottData = [
   {
     id: 1,
     city: "Netflix",
