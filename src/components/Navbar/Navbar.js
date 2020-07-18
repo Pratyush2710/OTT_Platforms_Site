@@ -19,7 +19,7 @@ export default function Navbar() {
         </li>
         <li>
           <a href="/" className="nav-link active">
-            Tours
+            OTTs
           </a>
         </li>
       </ul>
